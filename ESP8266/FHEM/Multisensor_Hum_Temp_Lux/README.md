@@ -11,5 +11,5 @@ Folgende Anpassungen musst du machen:
 - Im "init.lua" File, die SSID und das Passwort deines WLAN anpassen
 - Im "fhem_multisensor.lua" File die Server IP und den Telnetport von deinem FHEM anpassen
 
-Der ESP wird mit NodeMCU 0.9.5 (integer Version) geflasht.
+Der ESP wird mit NodeMCU 0.9.5 (integer Version) geflasht, siehe https://github.com/eppi72/Projekte/tree/master/ESP8266/NodeMCU
 
