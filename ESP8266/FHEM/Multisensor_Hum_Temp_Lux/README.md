@@ -9,7 +9,7 @@ Die Sensoren senden im Abstand von zwei Minuten (einstellbar) Ihre Werte an FHEM
 
 Folgende Anpassungen musst du machen:
 - In "init.lua" die SSID und das Passwort deines WLAN anpassen
-- In "fhem_multisensor.lua" die Server IP und den Telnetport von deinem FHEM anpassen
+- In "fhem_multisensor.lua" die Server IP und den Telnetport von deinem FHEM anpassen, sowie das den Namen deines FHEM-Device  anpassen (bei mir esp8266temp).
 
 Der ESP wird mit NodeMCU 0.9.5 (integer Version) geflasht, siehe https://github.com/eppi72/Projekte/tree/master/ESP8266/NodeMCU
 
