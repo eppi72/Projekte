@@ -1,11 +1,11 @@
-# Multisensor (Temperatur, Luftfeuchtigkeit, Helligkeit): #
+# Multisensor (Temperatur, Luftfeuchtigkeit, Helligkeit) #
 
 Bestehend aus:
 - ESP8266-01 (auch andere möglich)
 - DHT-22 (Temperatur und Luftfeuchtigkeit)
 - BH1750 (Lux-Sensor)
 
-Die Sensoren senden im Abstand von zwei Minuten Ihre Werte an FHEM
+Die Sensoren senden im Abstand von zwei Minuten (einstellbar) Ihre Werte an FHEM
 
 Folgende Anpassungen musst du machen:
 - Im "init.lua" File, die SSID und das Passwort deines WLAN anpassen
